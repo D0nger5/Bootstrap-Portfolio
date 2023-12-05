@@ -6,15 +6,17 @@ h1, h2, h3 , h4, h5, h6 {
     font-family: 'Jura', sans-serif;
   }
 
+#background {
+    background-color: blue ;
+}
+
 .nav-item {
     margin: 0px 15px;
-    color: white !important;
     text-align: center !important;
 }
 
 .navbar-brand{
     margin: 0px 15px;
-    color: white !important;
     text-align: center !important;
 }
 
@@ -29,8 +31,7 @@ h1, h2, h3 , h4, h5, h6 {
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 100px);
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     }
 
 
