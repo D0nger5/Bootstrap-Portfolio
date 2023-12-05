@@ -9,22 +9,20 @@ h1, h2, h3 , h4, h5, h6 {
 .nav-item {
     margin: 0px 15px;
     color: white !important;
-    text-align: center;
+    text-align: center !important;
 }
 
 .navbar-brand{
     margin: 0px 15px;
     color: white !important;
-    text-align: center;
+    text-align: center !important;
 }
 
-}
 .navbar-brand img {
     padding-right: 15px;
-    width: 65px;
+    width: 90px;
+    height: 90px;
 }
-
-
 
 .hero {
     background-image: url("../images/coding.jpg");
@@ -38,14 +36,24 @@ h1, h2, h3 , h4, h5, h6 {
 
 .sectionHeading {
     text-align: center;
+    padding: 10px 10px 10px 10px;
 }
 
+.card-title {
+    text-align: left;
+    font-weight: bolder;
+}
 
-.cardContainer {
-/*    display: flex;*/
-    text-align: center;
-    align-items: center;
-    margin-top: 15px;    
+.card-text {
+    text-align: left;
+}
+
+.rounded-circle {
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .card-body {
@@ -53,21 +61,42 @@ h1, h2, h3 , h4, h5, h6 {
     margin-bottom: 15;
 }
 
-.aboutCard {
-   
-}
-
-.valueProp {
-    margin-top:  15px;
-    margin-bottom: 15;    
-  }
-
-  .contact {
-    
-    style="max-width: 100%;"
+.contact {
+    max-width: 100%;
   }
 
 .cardbody {
     margin-top:  15px;
     margin-bottom: 15;
+}
+
+#profile {
+    height:200px;
+    width: 200px;
+}
+
+#about {
+    max-width: 100%;
+    margin: 20px;
+}
+
+#project {
+    margin-top: 15px;
+}
+
+#projects {
+    margin-top: 15px;
+}
+
+#project-title {
+    text-align: left;
+}
+
+#project-text {
+    text-align: left;
+}
+
+#about {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
